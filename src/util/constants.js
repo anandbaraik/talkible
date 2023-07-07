@@ -12,6 +12,9 @@ export const ACTION_TYPE = {
     EDIT_USER_PROFILE: "EDIT_USER_PROFILE"
 };
 
+export const LIMIT = {
+    POST_CONTENT: 300,
+};
 export const TOAST_CONFIG = {
     position: "top-right",
     autoClose: 700,
