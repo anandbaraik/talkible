@@ -102,7 +102,6 @@ const SigninPage = () => {
                     <Stack spacing={5} pt={2}>
                         <Button
                             type='submit'
-                            loadingText="Submitting"
                             size="lg"
                             bg={'blue.400'}
                             color={'white'}
@@ -115,7 +114,6 @@ const SigninPage = () => {
                             onClick={setTestCredential}
                             variant='outline'
                             type='button'
-                            loadingText="Submitting"
                             size="lg"
                             color={useColorModeValue('gray.700', 'white')}
                             _hover={{

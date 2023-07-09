@@ -155,7 +155,7 @@ const SignupPage = () => {
 					</FormControl>
 					<Stack spacing={10} pt={2}>
 						<Button
-							disabled={userDetails.password !== userDetails.confirmPassword}
+							isDisabled={userDetails.password !== userDetails.confirmPassword}
 							type='submit'
 							loadingText="Submitting"
 							size="lg"

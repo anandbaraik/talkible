@@ -136,7 +136,7 @@ import { toast } from "react-toastify";
                 mr={3}
                 colorScheme="blue"
                 type="submit"
-                disabled={!updatedDetails?.firstName || updatedDetails?.lastName || isBtnDisabled}
+                isDisabled={!updatedDetails?.firstName?.length || !updatedDetails?.lastName?.length || isBtnDisabled}
                 onClick={submitProfileEdit}
               >
                 Update

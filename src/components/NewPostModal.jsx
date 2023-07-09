@@ -122,7 +122,7 @@ const NewPostModal = ({ isOpen, onClose, postDetails }) => {
 				  <Input
 					type="file"
 					display="none"
-					accept="image/*, video/*"
+					accept='.jpeg, .jpg, .png, .gif, .svg, .webp, video/mp4'
 					onChange={mediaUploadHandler}
 				  />
 				</FormControl>

@@ -61,7 +61,7 @@ const AvatarUploadMenu = ({ handleAvatarSelect, handleImageSelect }) => {
               ref={fileInputRef}
               type="file"
               display="none"
-              accept="image/*"
+              accept='.jpeg, .jpg, .png'
               onChange={handleImageSelect}
             />
           </FormControl>

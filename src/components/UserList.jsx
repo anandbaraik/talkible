@@ -34,7 +34,7 @@ const UserList = ({ user, isSearchUser }) => {
 
       {!isSearchUser && (
         <Button ml="auto" colorScheme="blue"
-			disabled={isBtnDisabled}
+			isDisabled={isBtnDisabled}
 			size="sm"
 			onClick={() => followHandler(user)}>
           Follow
