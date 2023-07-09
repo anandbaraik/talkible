@@ -85,7 +85,7 @@ import { getHumanizeTimePost } from '../util/commonFunction';
                       borderRadius="full"
                     />
                     <MenuList minW="8rem">
-                      <MenuItem icon={<EditIcon />} disabled={isBtnDisabled} onClick={onOpen}>
+                      <MenuItem icon={<EditIcon />} isDisabled={isBtnDisabled} onClick={onOpen}>
                         Edit
                       </MenuItem>
                       <NewPostModal
@@ -96,7 +96,7 @@ import { getHumanizeTimePost } from '../util/commonFunction';
                       <MenuItem
                         color={'red.400'}
                         icon={<DeleteIcon />}
-                        disabled={isBtnDisabled}
+                        isDisabled={isBtnDisabled}
                         onClick={() => deleteHandler()}
                       >
                         Delete
@@ -138,7 +138,7 @@ import { getHumanizeTimePost } from '../util/commonFunction';
                   />
                 }
                 bg="transparent"
-                disabled={isBtnDisabled}
+                isDisabled={isBtnDisabled}
                 onClick={() => likeHandler()}
               />
               {post?.likes?.likeCount > 0 && <Text>{post?.likes?.likeCount}</Text>}
@@ -151,7 +151,7 @@ import { getHumanizeTimePost } from '../util/commonFunction';
                   />
                 }
                 bg="transparent"
-                disabled={isBtnDisabled}
+                isDisabled={isBtnDisabled}
                 onClick={() => bookmarkHandler()}
               />
             </Flex>

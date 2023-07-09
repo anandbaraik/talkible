@@ -1,7 +1,7 @@
 import {Avatar,Button,Divider,Flex,HStack,Heading,IconButton,Link,Text,useDisclosure} from '@chakra-ui/react';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRightFromBracket, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightFromBracket, faArrowUpRightFromSquare, faUserGear } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import { logoutUser } from '../services/authService';
 import { useAuth } from '../context/AuthContext';
@@ -46,10 +46,13 @@ const ProfileCard = ({ user, totalPosts }) => {
                 {isAuthUser ? (
                   <HStack>
                     <Button
-                      display={{ base: 'none', lg: 'block' }}
-                      onClick={onOpen}
+						            variant={'outline'}
+						            color={'blue.500'}
+                      	display={{ base: 'none', lg: 'block' }}
+                      	onClick={onOpen}
                     >
-                      Edit Profile
+						<FontAwesomeIcon icon={faUserGear}/> {' '}
+                      	Edit Profile
                     </Button>
                     <IconButton
                       display={{ base: 'block', lg: 'none' }}
@@ -59,7 +62,7 @@ const ProfileCard = ({ user, totalPosts }) => {
                     <IconButton
                       variant='outline'
                       color={'red.400'}
-                      disabled={loader}
+                      isDisabled={loader}
                       icon={<FontAwesomeIcon icon={faArrowRightFromBracket} />}
                       onClick={() => { logoutUser(setToken, setUser, setLoader) }}
                     />
@@ -70,7 +73,7 @@ const ProfileCard = ({ user, totalPosts }) => {
                 ) : (
                   <HStack>
                     <Button
-					disabled={isBtnDisabled}
+					isDisabled={isBtnDisabled}
                       onClick={() => followHandler()}
                       colorScheme={isUserFollowed ? 'red' : 'blue'}
                     >

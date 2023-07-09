@@ -4,6 +4,9 @@ import { NavLink, Link } from 'react-router-dom';
 import { AddIcon } from '@chakra-ui/icons';
 import NewPostModal from './NewPostModal';
 import { useAuth } from '../context/AuthContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons'
+
 const LeftSidebarNav = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const {user} = useAuth();
@@ -32,8 +35,10 @@ const LeftSidebarNav = () => {
           borderRadius={{ base: 'full', lg: 'md' }}
           p={2}
           _activeLink={{
-            bg: useColorModeValue('gray.100', 'gray.700'),
-          }}
+			transition: 'none',
+			fontWeight: 'bold',
+			color: 'blue.400',
+		  }}
           _hover={{
             bg: useColorModeValue('gray.100', 'gray.700'),
             textDecoration: 'none',
@@ -61,8 +66,10 @@ const LeftSidebarNav = () => {
           borderRadius={{ base: 'full', lg: 'md' }}
           p={2}
           _activeLink={{
-            bg: useColorModeValue('gray.100', 'gray.700'),
-          }}
+			transition: 'none',
+			fontWeight: 'bold',
+			color: 'blue.400',
+		  }}
           _hover={{
             bg: useColorModeValue('gray.100', 'gray.700'),
             textDecoration: 'none',
@@ -89,9 +96,11 @@ const LeftSidebarNav = () => {
           to="/bookmarks"
           borderRadius={{ base: 'full', lg: 'md' }}
           p={2}
-          _activeLink={{
-            bg: useColorModeValue('gray.100', 'gray.700'),
-          }}
+		  _activeLink={{
+			transition: 'none',
+			fontWeight: 'bold',
+			color: 'blue.400',
+		  }}
           _hover={{
             bg: useColorModeValue('gray.100', 'gray.700'),
             textDecoration: 'none',
@@ -120,8 +129,10 @@ const LeftSidebarNav = () => {
           borderRadius={{ base: 'full', lg: 'md' }}
           p={2}
           _activeLink={{
-            bg: useColorModeValue('gray.100', 'gray.700'),
-          }}
+			transition: 'none',
+			fontWeight: 'bold',
+			color: 'blue.400',
+		  }}
           _hover={{
             bg: useColorModeValue('gray.100', 'gray.700'),
             textDecoration: 'none',
@@ -145,7 +156,10 @@ const LeftSidebarNav = () => {
         </ChakraLink>
 
         <Button display={{ base: 'none', lg: 'block' }} onClick={onOpen}>
-          <Text>Create Post</Text>
+            <Flex alignItems="center" gap={2} transition="all 0.1s linear">
+                <FontAwesomeIcon icon={faCirclePlus} />
+                <Text>Create Post</Text>
+            </Flex>
         </Button>
 
         <IconButton
