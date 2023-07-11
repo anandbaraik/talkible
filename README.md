@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Talkible
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A new age social media where you can connect, share, and engage in a vibrant social network.
 
-## Available Scripts
+## live link
 
-In the project directory, you can run:
+🔗 [Talkible](https://talkible.vercel.app/)
 
-### `npm start`
+## How to install and run locally ?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+- git clone https://github.com/anandbaraik/talkible.git
+- cd talkible
+- create .env file on root of your project and copy env variable from envexample and set required credentials to run app
+- npm install
+- npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pages and Features -
 
-### `npm test`
+## [Home Page](https://talkible.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Posts of users you follow & posts made by you
+- User Suggestions
+  - Follow users
+- Like/ Unlike a Post
+- Add/ Remove a post from bookmarks
+- Create/Edit post with image upload and emoji
+- Delete Own post
+- Sort/filter posts based on Latest/Trending/Oldest.
 
-### `npm run build`
+## [Explore Page](https://talkible.vercel.app/explore)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- All Posts from users
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### [Bookmarks Page](https://talkible.vercel.app/bookmarks)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- User's bookmarked posts list
+  - Remove from Bookmarks
+  - Like/Unlike posts
 
-### `npm run eject`
+### [Liked posts](https://talkible.vercel.app/liked)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- User's liked posts list
+  - Unlike the post
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### [Profile Page](https://talkible.vercel.app/profile/anandbaraik)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Edit own profile with image upload or choose avatar from avatar options
+- Follow/Unfollow users.
+- List of all posts posted by user
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### [Authentication & Other Features](https://talkible.vercel.app/signin)
 
-## Learn More
+- Authentication
+  - Signin
+  - Signup
+- 404 Error Page
+- Search Users
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built with
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React JS
+- React Context API + useReducer for State management
+- React Router v6
+- Chakra UI
+- React icons+Chakra icons
+- React-toastify
+- Vercel for Deployment
+- Mockbee as mock-backend
+- Cloudinary for Media Storage
 
-### Code Splitting
+## Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-### Analyzing the Bundle Size
+- Fork the repository.
+- Create a new branch for your feature/bug fix: git checkout -b feature/your-feature.
+- Make your changes and commit them: git commit -m "Add your feature".
+- Push to the branch: git push origin feature/your-feature.
+- Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Screenshots
 
-### Making a Progressive Web App
+### Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Talkible-home](https://github.com/anandbaraik/talkible/assets/31516195/7035e590-6138-41ef-89de-ca8c3a3bc001)
 
-### Advanced Configuration
+### Explore Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Talkible-explore](https://github.com/anandbaraik/talkible/assets/31516195/8fc60a3b-160b-410e-9b31-5c9bc43d93ae)
 
-### Deployment
+### Bookmarks Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Talkible-bookmarks](https://github.com/anandbaraik/talkible/assets/31516195/15a6517a-bcd9-4cc4-a678-c60a11b85888)
 
-### `npm run build` fails to minify
+### Liked Posts Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Talkible-liked-posts](https://github.com/anandbaraik/talkible/assets/31516195/42f106dd-a216-427f-8f5a-170500e35949)
+
+### Profile Page
+
+![Talkible-profile](https://github.com/anandbaraik/talkible/assets/31516195/ed0cfc63-54e0-45a8-8a7c-ade5a431f54f)
+
+### Create Post
+
+![Talkible-create-post](https://github.com/anandbaraik/talkible/assets/31516195/6b7d0ff5-a641-440d-93c8-62897a97a171)
+
+### Edit Profile
+
+![Talkible-edit-profile](https://github.com/anandbaraik/talkible/assets/31516195/15ebc60b-3286-491f-8614-61072eebc6ed)
