@@ -51,8 +51,8 @@ const SigninPage = () => {
   }
   const setTestCredential = () => {
     setSignInCredential({
-        username: "emilysmith",
-        password: "emily@123Smith"
+        username: "anandbaraik",
+        password: "anand1234"
     });
   }
 

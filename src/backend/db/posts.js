@@ -17,11 +17,10 @@ export const posts = [
       likedBy: [
         {
           _id: "t7cZfWIp-q",
-          firstName: "Emily",
-          lastName: "Smith",
-          username: "emilysmith",
-          profileAvatar:
-            "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+          firstName: "Anand",
+          lastName: "Baraik",
+          username: "anandbaraik",
+          profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         },
         {
           _id: "79Gksh9otl",
@@ -65,11 +64,10 @@ export const posts = [
       {
         _id: "t1cZfWIp-q",
         commentData: "Wish you a very Happy Birthday, dear!",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar:"https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         createdAt: formatDate(),
         updatedAt: formatDate(),
       },
@@ -197,7 +195,7 @@ export const posts = [
       ],
       dislikedBy: [],
     },
-    username: "emilysmith",
+    username: "anandbaraik",
     createdAt: formatDate(),
     updatedAt: formatDate(),
     comments: [
@@ -518,11 +516,10 @@ export const posts = [
         },
         {
           _id: "t7cZfWIp-q",
-          firstName: "Emily",
-          lastName: "Smith",
-          username: "emilysmith",
-          profileAvatar:
-            "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+          firstName: "Anand",
+          lastName: "Baraik",
+          username: "anandbaraik",
+          profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         },
         {
           _id: "1NR81Bzmuh",
@@ -550,11 +547,10 @@ export const posts = [
       {
         _id: "t7cZfWIp-qqwer",
         commentData: "Just amazing! You are an amazing artist.",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar:"https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         createdAt: "2022-05-10T01:06:00+05:30",
         updatedAt: "2022-05-10T01:06:00+05:30",
       },
@@ -800,7 +796,7 @@ export const posts = [
       ],
       dislikedBy: [],
     },
-    username: "emilysmith",
+    username: "anandbaraik",
     createdAt: "2023-03-17T01:06:00+05:30",
     updatedAt: "2023-03-17T01:06:00+05:30",
     comments: [],
@@ -808,20 +804,19 @@ export const posts = [
   {
     _id: "bb019e8d-f5d9-483d-8260-04d1ab280e97",
     content:
-      "💜 What an incredible performance! Enjoyed the show so much! The rhythm that transcends borders, the melodies that touch hearts. Grateful to be a part of this incredible fandom. ✨🚀 #BTS #ARMY #MusicMagic",
+      "💜 What an incredible performance! Enjoyed the show so much! The rhythm that transcends borders, the melodies that touch hearts. Grateful to be a part of this incredible fandom. ✨🚀 #MusicMagic",
     mediaURL:
       "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1687932667/socialMedia/bts-concert-1_blse9a.png",
-    mediaAlt: "BTS",
+    mediaAlt: "MUsic",
     likes: {
       likeCount: 6,
       likedBy: [
         {
           _id: "t7cZfWIp-q",
-          firstName: "Emily",
-          lastName: "Smith",
-          username: "emilysmith",
-          profileAvatar:
-            "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+          firstName: "Anand",
+          lastName: "Baraik",
+          username: "anandbaraik",
+          profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         },
         {
           _id: "ab8zWjEeXd",
@@ -884,11 +879,10 @@ export const posts = [
       {
         _id: "t7cZfWIp-qpoiuy",
         commentData: "Yaay! Next time we'll go together!",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar:"https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         createdAt: formatDate(),
         updatedAt: formatDate(),
       },
@@ -963,7 +957,7 @@ export const posts = [
       ],
       dislikedBy: [],
     },
-    username: "emilysmith",
+    username: "anandbaraik",
     createdAt: "2023-06-25T01:06:00+05:30",
     updatedAt: "2023-06-25T01:06:00+05:30",
     comments: [],
@@ -1224,11 +1218,10 @@ export const posts = [
         },
         {
           _id: "t7cZfWIp-q",
-          firstName: "Emily",
-          lastName: "Smith",
-          username: "emilysmith",
-          profileAvatar:
-            "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+          firstName: "Anand",
+          lastName: "Baraik",
+          username: "anandbaraik",
+          profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
         },
         {
           _id: "79Gksh9otl",
