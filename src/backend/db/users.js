@@ -7,16 +7,14 @@ import { formatDate } from "../utils/authUtils";
 export const users = [
   {
     _id: "t7cZfWIp-q",
-    firstName: "Emily",
-    lastName: "Smith",
-    password: "emily@123Smith",
-    username: "emilysmith",
-    bio: "Aspiring Frontend Developer",
-    website: "https://emilysmith.tech",
-    profileAvatar:
-      "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
-    backgroundImage:
-      "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686332490/socialMedia/programming-bg_znumg2.jpg",
+    firstName: "Anand",
+    lastName: "Baraik",
+    password: "anand1234",
+    username: "anandbaraik",
+    bio: "Software Engineer || Upskilling @neogCamp '23 || Documenting/twitting my learning & journey in tech.",
+    website: "https://t.co/Im5GPhKCFd",
+    profileAvatar:"https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
+    backgroundImage:"https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
     createdAt: "2019-02-02T01:06:00+05:30",
     updatedAt: formatDate(),
     following: [
@@ -100,11 +98,10 @@ export const users = [
     followers: [
       {
         _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
       },
     ],
     bookmarks: [],
@@ -144,11 +141,10 @@ export const users = [
       },
       {
         _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
       },
     ],
     bookmarks: [],
@@ -171,11 +167,10 @@ export const users = [
     followers: [
       {
         _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
       },
     ],
     bookmarks: [],
@@ -198,11 +193,10 @@ export const users = [
     followers: [
       {
         _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
       },
     ],
     bookmarks: [],
@@ -242,11 +236,10 @@ export const users = [
     following: [
       {
         _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
       },
     ],
     followers: [],
@@ -269,11 +262,10 @@ export const users = [
     following: [
       {
         _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
-        profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+        firstName: "Anand",
+        lastName: "Baraik",
+        username: "anandbaraik",
+        profileAvatar: "https://pbs.twimg.com/profile_images/1296817987920396289/aDAUAvaZ_400x400.jpg",
       },
     ],
     followers: [
