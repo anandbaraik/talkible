@@ -16,7 +16,7 @@ A new age social media where you can connect, share, and engage in a vibrant soc
 - npm start
 ```
 
-## Pages and Features -
+## Pages and Features
 
 ## [Home Page](https://talkible.vercel.app/)
 
@@ -101,6 +101,12 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 ### Profile Page
 
 ![Talkible-profile](https://github.com/anandbaraik/talkible/assets/31516195/ed0cfc63-54e0-45a8-8a7c-ade5a431f54f)
+
+### Authentication
+
+![Talkible-signup](https://github.com/anandbaraik/talkible/assets/31516195/2ac6b12b-b607-45b6-8387-0ba40dca1c03)
+
+![Talkible-signin](https://github.com/anandbaraik/talkible/assets/31516195/99ec91b5-f1ce-4698-88f8-875cf81ba428)
 
 ### Create Post
 
